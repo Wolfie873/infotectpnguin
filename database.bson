@@ -1,4 +1,3 @@
-db.book.insertMany(
 [
     { 
         title: "Blue", 
