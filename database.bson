@@ -1,0 +1,18 @@
+db.book.insertMany(
+[
+    { 
+        title: "Blue", 
+        author: "JL Ortiz Diaz", 
+        pages: 500, 
+        rating: 9, 
+        reviews: ["$reviews_id"]
+        }, 
+        
+    {
+        title: "Red", 
+        author: "JL Ortiz Diaz", 
+        pages: 600, 
+        rating: 7, 
+        reviews: ["book_id"]
+        }
+        ])
